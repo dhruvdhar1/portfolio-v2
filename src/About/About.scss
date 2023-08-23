@@ -1,6 +1,77 @@
 .about-root{
+    display: flex;
+    flex-direction: column;
     padding: 50px;
-    border: solid green 5px;
-    height: calc(100vh - 80px);
-    transition: scroll 1s;
+    height: calc(100vh - 180px);
+    background: rgb(24, 26, 27);
+    color: rgb(200, 195, 188);
+}
+.about-header{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.about-me-underline{
+    padding-top: 15px;
+    align-self: center;
+    width: 40px;
+    border-bottom: 5px solid #4414ab;
+}
+.about-detail{
+    position: relative;
+    display: flex;
+    top: 50px;
+    .discover-text{
+        width: 50%;
+        .intro-text{
+            padding: 0 50px 50px 50px;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 1.5rem;
+        }
+    }
+}
+.discover-heading{
+    padding: 50px;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.skill-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    grid-template-areas: "header header";
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+.skill-heading {
+    grid-area: header;
+    padding-bottom: 20px;
+}
+
+
+.skill-item{
+    display: flex;
+    padding-bottom: 30px;
+    .skill-item-icon{
+        height: 60px;
+        width: 60px;
+    }
+    .skill-item-text{
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
 }
