@@ -1,0 +1,108 @@
+.project2-root{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 50px;
+    background-image: linear-gradient(to right, rgba(30, 32, 33, 0.8), rgba(30, 32, 33, 0.8)), url("../assets/back2.svg");
+    color: rgb(200, 195, 188);
+    justify-content: center;
+}
+.project2-heading{
+    // padding: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.project2-header-underline{
+    padding-top: 15px;
+    text-align: center;
+    align-self: center;
+    width: 40px;
+    border-bottom: 5px solid #4414ab;
+}
+.project2-list{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px 50px 50px;
+}
+.project2-list-item{
+    position: relative;
+    display: flex;
+    align-self: center;
+    // border: 1px solid yellow;
+    height: auto;
+    min-width: 950px;
+    padding: 50px 100px 50px 100px;
+}
+.project2-list-item-rev{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    // border: 1px solid yellow;
+    height: auto;
+    min-width: 950px;
+    padding: 50px 100px 50px 100px;
+}
+.project2-item-img{
+    // border: 2px solid red;
+    height: 350px;
+    width: 550px;
+    max-width: 600px;
+    // right: 10%;
+    z-index: 1;
+    // background-color: red;
+    transition: .5s ease;
+    .project2-img-dim {
+        width: 100%;
+        height: inherit;
+    }
+}
+.project2-item-img:hover {
+    opacity: 0.5;
+}
+.project2-item-desc{
+    position: absolute;
+    // border: 2px solid cyan;
+    height: 350px;
+    min-width: 500px;
+    z-index: 1;
+    right: 5%;
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+}
+.project2-item-desc-rev{
+    position: absolute;
+    // border: 2px solid cyan;
+    height: 350px;
+    min-width: 500px;
+    z-index: 1;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.project2-item-desc-heading{
+    padding: 20px;
+    // border: 2px solid pink;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.project2-item-desc-container{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #0e1b33;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    max-width: 500px;
+}
+.project2-item-desc-tech{
+    padding: 20px;
+}
+.project2-item-desc-link{
+    // border: 2px solid gold;
+}

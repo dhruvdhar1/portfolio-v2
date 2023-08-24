@@ -1,8 +1,7 @@
 .about-root{
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    height: calc(100vh - 180px);
+    padding: 70px 50px;
     background: rgb(24, 26, 27);
     color: rgb(200, 195, 188);
 }
@@ -23,10 +22,11 @@
     position: relative;
     display: flex;
     top: 50px;
+    padding-bottom: 50px;
     .discover-text{
         width: 50%;
         .intro-text{
-            padding: 0 50px 50px 50px;
+            padding: 0 50px 0 50px;
             font-size: 1rem;
             font-weight: 300;
             letter-spacing: 1px;
@@ -35,27 +35,36 @@
     }
 }
 .discover-heading{
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
     font-size: 2rem;
     font-weight: 900;
     letter-spacing: 1px;
 }
-
-.skill-list{
+.skill-items{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
     padding: 50px;
-    grid-template-areas: "header header";
-    font-size: 2rem;
-    font-weight: 900;
-    letter-spacing: 1px;
-    column-gap: 50px;
-    row-gap: 20px;
+}
+.dhruv-pic{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    // border: 2px solid red;
+    width: 50%;
+}
+
+.skill-section{
+    // border: 2px solid gold;
 }
 
 .skill-heading {
+    padding: 50px;
     grid-area: header;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
 }
 
 
@@ -63,14 +72,14 @@
     display: flex;
     padding-bottom: 30px;
     .skill-item-icon{
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 40px;
     }
     .skill-item-text{
         display: flex;
         align-items: center;
-        padding-left: 50px;
-        font-size: 1.2rem;
+        padding-left: 30px;
+        font-size: 1rem;
         font-weight: 500;
         letter-spacing: 1px;
     }
