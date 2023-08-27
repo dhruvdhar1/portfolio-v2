@@ -1,0 +1,46 @@
+.contact-root {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    background: rgb(24, 26, 27);
+}
+.contact-header{
+    display: flex;
+    height: 40%;
+    justify-content: center;
+    align-items: end;
+    grid-area: header;
+    padding-bottom: 5px;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #b0cdf1;
+}
+.contact-sub-header{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    font-size: 1.5rem;
+    color: rgb(200, 195, 188);
+}
+.mail-link{
+    color: rgb(200, 195, 188) !important;
+}
+.mail-link:hover{
+    color: #844ef8;
+    transition: color .3s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+}
+.contact-footer{
+    display: flex;
+    position: relative;
+    bottom: 0;
+    height: 50px;
+    justify-content: center;
+    background: rgb(24, 26, 27);
+    color: #b0cdf1;
+}

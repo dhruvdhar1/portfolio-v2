@@ -126,7 +126,6 @@ const Projects2 = () => {
                             C&nbsp;&nbsp;&nbsp;
                             Python&nbsp;&nbsp;&nbsp;
                             Qt designer&nbsp;&nbsp;&nbsp;
-                            Mongo&nbsp;&nbsp;&nbsp;
                         </div>
                         <div className="project2-item-desc-link">
                         <Button variant="contained" 

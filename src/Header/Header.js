@@ -1,5 +1,4 @@
 import "./Header.scss"
-import icon from "../assets/main-icon.png" 
 import dp from "../assets/dp2.jpeg"
 
 const Tab = (name, link) => {
@@ -14,10 +13,10 @@ const Header = () => {
         <div className='header-root'>
             <div className='header-left'>
                 <img src={dp} height={50} width={50} className="img-logo"/>
-                {Tab('DHRUV DHAR')}
+                {Tab('DHRUV DHAR', "#home")}
             </div>
             <div className='header-right'>
-                {Tab('CONTACT')}
+                {Tab('CONTACT', "#contact")}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 {Tab('PROJECTS', "#projects")}
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

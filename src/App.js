@@ -1,7 +1,7 @@
 import About from "./About/About";
+import Contact from "./Contact/Contact";
 import Header from "./Header/Header";
 import Home from "./Home/Home";
-import Projects from "./Projects/Projects";
 import Projects2 from "./Projects2/Projects2";
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
       <Header />
       <Home />
       <About />
-      {/* <Projects /> */}
       <Projects2 />
+      <Contact/>
     </div>
   );
 }

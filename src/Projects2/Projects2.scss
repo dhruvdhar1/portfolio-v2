@@ -27,6 +27,7 @@
     padding: 100px 50px 50px 50px;
 }
 .project2-list-item{
+    cursor: pointer;
     position: relative;
     display: flex;
     align-self: center;
@@ -36,6 +37,7 @@
     padding: 50px 100px 50px 100px;
 }
 .project2-list-item-rev{
+    cursor: pointer;
     position: relative;
     display: flex;
     flex-direction: row-reverse;
@@ -60,7 +62,7 @@
     }
 }
 .project2-item-img:hover {
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .project2-item-desc{
     position: absolute;

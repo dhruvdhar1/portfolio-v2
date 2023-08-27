@@ -57,21 +57,25 @@ const Home = () => {
                     and back-end development, along with a knack for problem-solving, to contribute to innovative projects and drive exceptional user experiences.
                 </span>
                 <div className="home-btn-container">
-                    <Button variant="contained" 
-                        size='large' className='home-btn'
-                        id="project-btn"
-                        onMouseEnter={() => animateButton("#project-btn")}
-                        onMouseLeave={() => removeAnimation("#project-btn")}>
-                            Projects
-                    </Button>
+                    <a href="#projects">
+                        <Button variant="contained" 
+                            size='large' className='home-btn'
+                            id="project-btn"
+                            onMouseEnter={() => animateButton("#project-btn")}
+                            onMouseLeave={() => removeAnimation("#project-btn")}>
+                                Projects
+                        </Button>
+                    </a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <Button variant="contained" 
-                        size='large' className='home-btn'
-                        id="resume-btn"
-                        onMouseEnter={() => animateButton("#resume-btn")}
-                        onMouseLeave={() => removeAnimation("#resume-btn")}>
-                            Resume
-                    </Button>
+                    <a href="https://drive.google.com/file/d/1cZ8hIIxHNxroIhRSQYW-x2JKXXEEX_gg/view?usp=sharing">
+                        <Button variant="contained" 
+                            size='large' className='home-btn'
+                            id="resume-btn"
+                            onMouseEnter={() => animateButton("#resume-btn")}
+                            onMouseLeave={() => removeAnimation("#resume-btn")}>
+                                Resume
+                        </Button>
+                    </a>
                 </div>
                 <div className="social-links-container">
                     {/* linkedin github medium */}
