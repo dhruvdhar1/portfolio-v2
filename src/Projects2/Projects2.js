@@ -51,10 +51,9 @@ const Projects2 = () => {
                     <div className="project2-item-desc-rev">
                         <div className="project2-item-desc-heading">Knight's Watch (*)</div>
                         <div className="project2-item-desc-container">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            sed do eiusmod tempor incididunt ut labore et dolore magna 
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            An project for tracking application telemetry information in almost real time. 
+                            This application is
+                            currently work in progress.
                         </div>
                         <div className="project2-item-desc-tech">
                             React&nbsp;&nbsp;&nbsp;
@@ -67,7 +66,7 @@ const Projects2 = () => {
                             size='large' className='home-btn'
                             id="project-btn"
                             onClick={() => {
-                                window.open("https://github.com/dhruvdhar1/data-clust", "_blank", "noreferrer");
+                                window.open("", "_blank", "noreferrer");
                             }}>
                                 Github link
                         </Button>
@@ -98,7 +97,7 @@ const Projects2 = () => {
                                 size='large' className='home-btn'
                                 id="project-btn"
                                 onClick={() => {
-                                    window.open("https://github.com/dhruvdhar1/data-clust", "_blank", "noreferrer");
+                                    window.open("https://github.com/dhruvdhar1/Jaxos", "_blank", "noreferrer");
                                 }}>
                                     Github link
                             </Button>
@@ -132,7 +131,7 @@ const Projects2 = () => {
                             size='large' className='home-btn'
                             id="project-btn"
                             onClick={() => {
-                                window.open("https://github.com/dhruvdhar1/data-clust", "_blank", "noreferrer");
+                                window.open("https://github.com/dhruvdhar1/PClust_parallel", "_blank", "noreferrer");
                             }}>
                                 Github link
                         </Button>
